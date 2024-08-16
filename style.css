@@ -1,0 +1,42 @@
+body{
+    background-image: linear-gradient(to right,#987D9A,#BB9AB1);
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+}
+.calculator {
+    border-style: outset;
+    background-color: #ccc;
+    border-radius: 10px;
+    padding: 25px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
